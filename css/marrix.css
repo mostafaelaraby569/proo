@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(51, 24, 51);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav ul li {
+    padding: 10px;
+    margin: 3px 12px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav li a:hover {
+    color: rgb(255, 255, 109);
+}
+
+.sec img {
+    width: 100%;
+    height: 90%;
+}
+
+.about {
+    margin-top: 60px;
+    background-color: rgb(67 4 4 / 84%);
+    width: 100%;
+    height: 270px;
+    display: flex;
+}
+
+.hi {
+    
+    width: 30%;
+    padding: 8px 27px;
+    margin: 30px 29px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.6;
+    display: block;
+}
+
+.ci {
+    width: 70%;
+    padding: 0px 5px;
+    margin: 50px 5px 38px 36px;
+    font-size: 25px;
+    font-family: 'Merienda', cursive;
+    color: white;
+    line-height: 1.6;
+    display: block;
+}
+
+
+.skills {
+    width: 100%;
+    height: 280px;
+    margin: 60px 0 60px 0;
+    padding: 20px;
+    background: #1f1c5f;
+    color: #f5f5f5;
+    display: flex;
+}
+
+.s1, .s2 {
+    width: 45%;
+    height: 180px;
+    margin: 65px 20px 5px 20px;
+    padding: 5px;
+    display: block;
+}
+
+strong {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    padding-bottom: 14px;
+    margin-top: 20px;
+}
+
+.percent {
+    float: right !important;
+}
+
+.progress {
+    border-radius: 0px;
+    height: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: white;
+    display: block;
+}
+
+.skills .progress .progress-bar-primary {
+    background: #ff0000;
+}
+
+.progress-bar {
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    height: 240px;
+    background-color: #323238;
+    color: white;
+    display: flex;
+}
+
+.contact {
+    width: 50%;
+    display: block;
+    padding: 0px 14px 5px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+
+}
+
+.im {
+    text-align: left;
+    margin-left: 69px;
+}
+
+.footer .contact p {
+    padding: 0 20px;
+    margin: 0 0 15px 60px;
+}
+
+i {
+    color: white;
+    font-size: 20px;
+}
+
+.footer .contact p span {
+    padding: 5px;
+    margin: 1px 0 0 9px;
+}
+
+.kit {
+    width: 50%;
+    display: block;
+    padding: 0px 14px 5px;
+}
+
+.kit ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kit ul li {
+    padding: 0 20px;
+}
